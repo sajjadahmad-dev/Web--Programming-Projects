@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+}
+
+.profile-card {
+    position: relative;
+    width: 300px;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.profile-picture {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.badge {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-name {
+    margin-top: 60px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.profile-description {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.hobbies-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.hobbies-list li {
+    background: #f8f9fa;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.toggle-button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.toggle-button:hover {
+    background: #0056b3;
+}
+
+.age-category {
+    margin-top: 10px;
+    font-style: italic;
+    color: #666;
+}
+
+.hidden {
+    display: none;
+}
