@@ -24,9 +24,6 @@ The **Profile Card** layout features:
 
 ---
 
-## Screenshots
-
-![Profile Card Screenshot](profile-card-screenshot.png)
 
 ---
 
